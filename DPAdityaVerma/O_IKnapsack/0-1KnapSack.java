@@ -1,3 +1,4 @@
+package O_IKnapsack;
 // Q: Given two integer arrays A and B of size N each which represent values and weights associated with N items respectively.
 
 // Also given an integer C which represents knapsack capacity.
