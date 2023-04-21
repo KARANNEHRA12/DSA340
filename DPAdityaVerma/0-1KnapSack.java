@@ -1,3 +1,33 @@
+// Q: Given two integer arrays A and B of size N each which represent values and weights associated with N items respectively.
+
+// Also given an integer C which represents knapsack capacity.
+
+// Find out the maximum value subset of A such that sum of the weights of this subset is smaller than or equal to C.
+
+// NOTE:
+
+// You cannot break an item, either pick the complete item, or don’t pick it (0-1 property).
+
+// Input 1:
+
+//  A = [60, 100, 120]
+//  B = [10, 20, 30]
+//  C = 50
+// Input 2:
+
+//  A = [10, 20, 30, 40]
+//  B = [12, 13, 15, 19]
+//  C = 10
+
+//  Output 1:
+
+//  220
+// Output 2:
+
+//  0
+
+
+
 // recursive code
 int Knapsack( int [] wt, int val,int n, int C ){
     if( n == 0 || C ==0 ){
