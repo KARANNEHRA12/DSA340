@@ -50,16 +50,16 @@ public class Rodcutting {
     public static int maximumProfit(int[] prices, int n) {
         int[] dp = new int[n + 1];
         if (n <= 0) {
-          return 0;
+            return 0;
         }
         int maxVal = Integer.MIN_VALUE;
         for (int i = 1; i <= n; i++) {
-          for (int j = 0; j < i; j++) {
-            maxVal = Math.max(maxVal, prices[j] + dp[i - j - 1]);
-          }
-          dp[i] = maxVal;
+            for (int j = 0; j < i; j++) {
+                maxVal = Math.max(maxVal, prices[j] + dp[i - j - 1]);
+            }
+            dp[i] = maxVal;
         }
         return dp[n];
-      }
+    }
 
 }
