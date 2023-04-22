@@ -1,5 +1,7 @@
+// Q Link L : https://practice.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article
 package UnboundedKnapsack;
 
+// A= val. B- wt , C - capacity, n - size of val or wt
 public class UBKnasack {
     public int KnapsackHelper(int[] A, int[] B, int C, int n, int[][] dp) {
         for (int i = 0; i <= n; i++) {
