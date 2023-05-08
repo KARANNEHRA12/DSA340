@@ -3,6 +3,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.Stack;
 
+//Note: arraylist m hi reverse krna hota hai
 public class NextGreaterRight {
     public ArrayList<Integer> NextGreaterToRight(ArrayList<Integer> nums, int size) {
         ArrayList<Integer> ans = new ArrayList<>();

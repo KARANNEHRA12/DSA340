@@ -1,3 +1,5 @@
+// Q: https://practice.geeksforgeeks.org/problems/smallest-number-on-left3403/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article
+
 import java.util.ArrayList;
 import java.util.Stack;
 
