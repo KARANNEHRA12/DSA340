@@ -12,6 +12,7 @@ public class longesArrayWithZeroSum {
         int ans =0;
         int i =-1;
         hm.put(sum, i);
+
         while( i< n-1) {
             i++;
             sum += a.get(i);
