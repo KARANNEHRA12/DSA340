@@ -1,3 +1,4 @@
+//Q: https://leetcode.com/problems/search-a-2d-matrix/description/
 public class BSInMatrix {
 
 //    public boolean searchMatrix(int[][] matrix, int target) {
@@ -21,6 +22,7 @@ public class BSInMatrix {
 //    }
 
     // another approach using BS
+
     public boolean searchMatrix(int[][] matrix, int target) {
         int m = matrix.length;
         int n = matrix[0].length;
