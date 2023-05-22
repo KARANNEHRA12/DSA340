@@ -13,6 +13,8 @@ public class DuplicateInarary {
 //        }
 //         return 0;
         // more optimisez appproach this method is called Swap Sort
+//         here Indx +1 -> missing number/
+//        and nums[i] -> repeating number
 
         for (int i = 0; i < n ; i++) {
              int indx = Math.abs(nums[i] ) -1;
@@ -28,6 +30,7 @@ public class DuplicateInarary {
              }
 
         }
+         return 0;
 
     }
 }
