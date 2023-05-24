@@ -33,4 +33,24 @@ public class DuplicateInarary {
          return 0;
 
     }
+
+    //----------------Swap Sort Algorithm-----------------------
+    // this is the preprocessing code
+    // int i =0;
+    // this is for swap element to theri ideal position
+//    while(i< nums.length){
+//            if( nums[i] != nums[nums[i] -1]){
+//                 swap( nums[i], nums[nums[i] -1]);
+//
+//        }
+//            else i++;
+//    }
+    // Now checking for duplicate and missing
+//     for( int i =0 ; i< size; i++){
+//         if( nums[i] !=  i+1){
+//     we can add these element to list or as per question
+//             mising_number  =  i+1;
+//             duplicate =  nums[i];
+//         }
+//    }
 }
